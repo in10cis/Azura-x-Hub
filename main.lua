@@ -9,6 +9,36 @@ local LocalPlayer = Players.LocalPlayer
 local Camera      = workspace.CurrentCamera
 
 --////////////////////////////////////////////////////
+-- Key System
+--////////////////////////////////////////////////////
+
+local Window = Rayfield:CreateWindow({
+   Name = "🌊 Azura-x | Blox Fruits 🌊",
+   LoadingTitle = "🍊 Blox Fruits 🍊",
+   LoadingSubtitle = "by uhquwu",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+   Discord = {
+      Enabled = true,
+      Invite = "https://discord.gg/5ygu3BnuU5", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Key | Azura-x Hub",
+      Subtitle = "Key System",
+      Note = "Join Discord server for the key!!",
+      FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/raw/nyYk1FG1"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+--////////////////////////////////////////////////////
 -- SETTINGS
 --////////////////////////////////////////////////////
 local Settings = {
@@ -570,12 +600,14 @@ sep.BackgroundColor3=C.BORDER; sep.BorderSizePixel=0
 
 -- Les logs — modifie juste ce tableau pour mettre à jour le changelog !
 local LOGS = {
-    { date="18/04/2025", status="/", text="ESP         | casi good" },
-    { date="18/04/2025", status="/", text="Fly         | Casi good" },
-    { date="18/04/2025", status="/", text="aimbot      | Le aimbot se met mais que la ou le cercle est au centre" },
-    { date="18/04/2025", status="x", text="Anti Fog    | Sa ne marche plus" },
-    { date="18/04/2025", status="/", text="Potato mode | Potato marche casi pas" },
-    { date="18/04/2025", status="/", text="no anime    | Marche mais pas avec les m1" },
+    { date="18/04/2025", status="=", text="ESP  —  Nametag, HP bar, Box, Highlight" },
+    { date="18/04/2025", status="=", text="Aimbot  —  Lock-on G, Smooth, Predict, Priorité" },
+    { date="18/04/2025", status="=", text="Speed  —  Slider 16-500" },
+    { date="18/04/2025", status="=", text="Fly  —  BodyVelocity stable" },
+    { date="18/04/2025", status="=", text="Infinite Jump  —  Actif" },
+    { date="18/04/2025", status="=", text="NoClip  —  Actif" },
+    { date="18/04/2025", status="=", text="Graphisme  —  Potato, Fog, FOV, NoAnim" },
+    { date="18/04/2025", status="=", text="FOV cercle aimbot  —  souris pas bougeable" },
 }
 
 local STATUS_COLORS = {
