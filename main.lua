@@ -88,7 +88,7 @@ end
 -- GUI ROOT
 --////////////////////////////////////////////////////
 local gui = Instance.new("ScreenGui")
-gui.Name            = "GAME_MENU"
+gui.Name            = "Azura-x Hub"
 gui.ResetOnSpawn    = false
 gui.ZIndexBehavior  = Enum.ZIndexBehavior.Sibling
 gui.Parent          = game.CoreGui
