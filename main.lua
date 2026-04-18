@@ -19,7 +19,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "azura-x hub"
+      FileName = "Example Hub"
    },
    Discord = {
       Enabled = true,
