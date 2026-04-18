@@ -79,7 +79,7 @@ task.defer(captureOriginalSpeed)
 --////////////////////////////////////////////////////
 -- NETTOYAGE
 --////////////////////////////////////////////////////
-for _, n in ipairs({"GAME_MENU","AimbotCircle"}) do
+for _, n in ipairs({"Azura-x Hub","AimbotCircle"}) do
     local old = game.CoreGui:FindFirstChild(n)
     if old then old:Destroy() end
 end
@@ -143,13 +143,13 @@ tIcon.Font=Enum.Font.GothamBold; tIcon.TextColor3=C.ACCENT; tIcon.ZIndex=4
 
 local tLbl = Instance.new("TextLabel", titleBar)
 tLbl.Size=UDim2.new(1,-140,1,0); tLbl.Position=UDim2.new(0,40,0,0)
-tLbl.BackgroundTransparency=1; tLbl.Text="GAME MENU"; tLbl.TextSize=13
+tLbl.BackgroundTransparency=1; tLbl.Text="Azura-x Hub"; tLbl.TextSize=13
 tLbl.Font=Enum.Font.GothamBold; tLbl.TextColor3=C.TEXT
 tLbl.TextXAlignment=Enum.TextXAlignment.Left; tLbl.ZIndex=4
 
 local tHotkey = Instance.new("TextLabel", titleBar)
 tHotkey.Size=UDim2.new(0,140,1,0); tHotkey.Position=UDim2.new(1,-148,0,0)
-tHotkey.BackgroundTransparency=1; tHotkey.Text="RightAlt pour ouvrir"
+tHotkey.BackgroundTransparency=1; tHotkey.Text="Dev By uhquwu"
 tHotkey.TextSize=10; tHotkey.Font=Enum.Font.Gotham
 tHotkey.TextColor3=C.SUB; tHotkey.TextXAlignment=Enum.TextXAlignment.Right; tHotkey.ZIndex=4
 
