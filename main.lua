@@ -41,11 +41,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Azura-x Hub Key System",
       Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided",
+      Note = "Join discord serveur for get the key",
       FileName = "Key",
       SaveKey = true,
-      GrabKeyFromSite = false,
-      Key = {"FYZE7Y78ZEYG8ZE06RT6ZTFTDSGF97SDF7S65F7DSY6F087SDF5653532"}
+      GrabKeyFromSite = true,
+      Key = {"https://pastebin.com/raw/nyYk1FG1"}
    }
 })
 
