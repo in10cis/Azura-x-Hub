@@ -570,14 +570,16 @@ sep.BackgroundColor3=C.BORDER; sep.BorderSizePixel=0
 
 -- Les logs — modifie juste ce tableau pour mettre à jour le changelog !
 local LOGS = {
-    { date="18/04/2025", status="=", text="ESP  —  Nametag, HP bar, Box, Highlight" },
-    { date="18/04/2025", status="=", text="Aimbot  —  Lock-on G, Smooth, Predict, Priorité" },
-    { date="18/04/2025", status="=", text="Speed  —  Slider 16-500" },
-    { date="18/04/2025", status="=", text="Fly  —  BodyVelocity stable" },
+    { date="18/04/2025", status="/", text="ESP  —  casi good" },
+    { date="18/04/2025", status="=", text="Speed  —  Actif" },
+    { date="18/04/2025", status="/", text="Fly  —  casi good" },
     { date="18/04/2025", status="=", text="Infinite Jump  —  Actif" },
     { date="18/04/2025", status="=", text="NoClip  —  Actif" },
-    { date="18/04/2025", status="=", text="Graphisme  —  Potato, Fog, FOV, NoAnim" },
-    { date="18/04/2025", status="=", text="FOV cercle aimbot  —  souris pas bougeable" },
+    { date="18/04/2025", status="/", text="no anime  — marche mais pas avec les m1" },
+    { date="18/04/2025", status="/", text="aimbot  —  le aimbot se met mais que la ou le cercle est au centre" },
+    { date="18/04/2025", status="x", text="Anti Fog  —  sa ne marche plus" },
+    { date="18/04/2025", status="/", text="Potato mode  —  Potato marche casi pas" },
+    { date="18/04/2025", status="=", text="FOV change  —  actif" },
 }
 
 local STATUS_COLORS = {
