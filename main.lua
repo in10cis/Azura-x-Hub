@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 0,
    LoadingTitle = "Azura-x Hub Key System",
    LoadingSubtitle = "by uhquwu",
-   ShowText = "Rayfield",
+   ShowText = "...",
    Theme = "Default",
 
    ToggleUIKeybind = "K",
@@ -28,24 +28,24 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, 
-      FileName = "Big Hub"
+      FileName = "Azura-x Hub"
    },
 
    Discord = {
-      Enabled = false,
-      Invite = "noinvitelink",
+      Enabled = true,
+      Invite = "https://discord.com/invite/5ygu3BnuU5",
       RememberJoins = true 
    },
 
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
-      Title = "Untitled",
+      Title = "Azura-x Hub Key System",
       Subtitle = "Key System",
       Note = "No method of obtaining the key is provided",
       FileName = "Key",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"Hello"} --
+      Key = {"FYZE7Y78ZEYG8ZE06RT6ZTFTDSGF97SDF7S65F7DSY6F087SDF5653532"}
    }
 })
 
