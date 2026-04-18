@@ -9,6 +9,47 @@ local LocalPlayer = Players.LocalPlayer
 local Camera      = workspace.CurrentCamera
 
 --////////////////////////////////////////////////////
+-- Key System
+--////////////////////////////////////////////////////
+
+local Window = Rayfield:CreateWindow({
+   Name = "Azura-x Hub",
+   Icon = 0,
+   LoadingTitle = "Azura-x Hub Key System",
+   LoadingSubtitle = "by uhquwu",
+   ShowText = "Rayfield",
+   Theme = "Default",
+
+   ToggleUIKeybind = "K",
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, 
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true 
+   },
+
+   KeySystem = false,
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Hello"} --
+   }
+})
+
+--////////////////////////////////////////////////////
 -- SETTINGS
 --////////////////////////////////////////////////////
 local Settings = {
