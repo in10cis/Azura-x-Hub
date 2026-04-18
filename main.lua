@@ -570,16 +570,16 @@ sep.BackgroundColor3=C.BORDER; sep.BorderSizePixel=0
 
 -- Les logs — modifie juste ce tableau pour mettre à jour le changelog !
 local LOGS = {
-    { date="18/04/2025", status="/", text="ESP  —  casi good" },
-    { date="18/04/2025", status="=", text="Speed  —  Actif" },
-    { date="18/04/2025", status="/", text="Fly  —  casi good" },
-    { date="18/04/2025", status="=", text="Infinite Jump  —  Actif" },
-    { date="18/04/2025", status="=", text="NoClip  —  Actif" },
-    { date="18/04/2025", status="/", text="no anime  — marche mais pas avec les m1" },
-    { date="18/04/2025", status="/", text="aimbot  —  le aimbot se met mais que la ou le cercle est au centre" },
-    { date="18/04/2025", status="x", text="Anti Fog  —  sa ne marche plus" },
-    { date="18/04/2025", status="/", text="Potato mode  —  Potato marche casi pas" },
-    { date="18/04/2025", status="=", text="FOV change  —  actif" },
+    { date="18/04/2025", status="/", text="ESP         | casi good" },
+    { date="18/04/2025", status="=", text="Speed       | Actif" },
+    { date="18/04/2025", status="/", text="Fly         | Casi good" },
+    { date="18/04/2025", status="=", text="Infini Jump | Actif" },
+    { date="18/04/2025", status="=", text="NoClip      | Actif" },
+    { date="18/04/2025", status="/", text="aimbot      | Le aimbot se met mais que la ou le cercle est au centre" },
+    { date="18/04/2025", status="x", text="Anti Fog    | Sa ne marche plus" },
+    { date="18/04/2025", status="/", text="Potato mode | Potato marche casi pas" },
+    { date="18/04/2025", status="=", text="FOV change  | Actif" },
+    { date="18/04/2025", status="/", text="no anime    | Marche mais pas avec les m1" },
 }
 
 local STATUS_COLORS = {
